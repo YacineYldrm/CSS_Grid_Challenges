@@ -1,0 +1,218 @@
+/* ######################## RESETS / GENERALS  ####################### */
+
+@font-face {
+    font-family: "cormorant-garamond-rg";
+    src: url(./../font/CormorantGaramond-Regular.ttf);
+}
+
+@font-face {
+    font-family: "cormorant-garamond-it";
+    src: url(./../font/CormorantGaramond-Italic.ttf);
+}
+
+@font-face {
+    font-family: "cormorant-garamond-md";
+    src: url(./../font/CormorantGaramond-Medium.ttf);
+}
+
+@font-face {
+    font-family: "cormorant-garamond-bd";
+    src: url(./../font/CormorantGaramond-Bold.ttf);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+img
+{
+    display: block;
+}
+
+body
+{
+    background-color: #E9E9E0;
+    color: #333333;
+    /* width: 1185px; */
+    margin-inline: auto;
+}
+
+:root
+{
+    --headline-font: "cormorant-garamond-bd";
+    --headline-font-size: 3rem;
+    --headline-font-weight: 43.75rem;
+    --sub-headline-font: "cormorant-garamond-md";
+    --sub-headline-font-size: 1.5rem;
+    --text-font: "cormorant-garamond-rg";
+    --text-font-size: 1rem;
+    --link-text-color: #737B80;
+}
+
+/* ######################## HEADER SECTION ####################### */
+
+h1
+{
+    font-family: var(--headline-font);
+    font-size: var(--headline-font-size);
+    font-weight: var(--headline-font-weight);
+    width: fit-content;
+    margin-inline: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.125rem;
+}
+
+.nav_wrapper
+{
+    font-family: var(--text-font);
+    font-size: var(--text-font-size);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px #333333 solid;
+    border-bottom: 5px #333333 solid;
+    padding: 0.5rem 0rem;
+    padding-inline: 10.5rem;
+}
+
+/* ######################## MAIN SECTION ####################### */
+
+/* ######################## TEXT SECTION ####################### */
+
+.headline_wrapper
+{
+    display: flex;
+    flex: 1;
+}
+
+.headline_wrapper h2
+{
+    font-family: var(--sub-headline-font);
+    font-size: 2.375rem;
+    flex-grow: 2;
+    padding: 18px 0px;
+    padding-left: 108px;
+}
+
+.headline_wrapper h3
+{
+    font-family: var(--sub-headline-font);
+    font-size: 1.125rem;
+    flex-grow: 1;
+    padding-top: 18px;
+    padding-right: 28px;
+}
+
+.main-content_wrapper
+{
+    display: flex;
+    flex: 1;
+}
+
+.text-section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    column-gap: 16px;
+    row-gap: 8px;
+}
+
+.text-section h4
+{
+    font-size: var(--sub-headline-font-size);
+    font-family: var(--sub-headline-font);
+}
+
+.text-section p
+{
+    font-size: var(--text-font-size);
+}
+
+/* ######################## ADVERTISEMENT SECTION ####################### */
+
+.advertisement_wrapper
+{
+    margin-left: 16px;
+    display: flex;
+    column-gap: 18px;
+}
+
+.kitchen-img_section p
+{
+    font-family: "cormorant-garamond-it";
+}
+
+.img_kitchen
+{
+    width: 468px;
+}
+
+.advertisement_section
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+    width: 218px;
+}
+
+.advertisement_section > div
+{
+    border: 5px #333333 solid;
+    /* padding-top: 24px;
+    padding-inline: 19px; */
+    position: relative;
+    height: 228px;
+    text-align: center;
+}
+
+.advertisement_section div:nth-of-type(1)
+{
+    font-size: 48px;
+}
+
+.advertisement_section div:nth-of-type(1)  p
+{
+    margin: 24px;
+}
+
+.advertisement_section h3
+{
+    font-size: var(--sub-headline-font-size);
+}
+
+.advertisement_section > div:nth-of-type(2) 
+{
+    padding: 20px 8px;
+}
+
+.advertisement_section > div:nth-of-type(2) p
+{
+    font-size: var(--text-font-size);
+    margin-inline: auto;
+    margin-bottom: 4px;
+}
+
+.advertisement_section a
+{
+    color: var(--link-text-color);
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.img_ikea
+{
+    width: 168px;
+    height: 168px;
+    margin-inline: auto;
+    margin-top: 24px;
+}
