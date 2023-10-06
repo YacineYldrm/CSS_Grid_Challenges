@@ -6,6 +6,11 @@
 }
 
 @font-face {
+    font-family: "cormorant-garamond-lt";
+    src: url(./../font/CormorantGaramond-Light.ttf);
+}
+
+@font-face {
     font-family: "cormorant-garamond-it";
     src: url(./../font/CormorantGaramond-Italic.ttf);
 }
@@ -193,6 +198,7 @@ h1
 .wrbng_section > div:nth-of-type(2) 
 {
     padding: 20px 8px;
+    font-family: "cormorant-garamond-lt"
 }
 
 .wrbng_section > div:nth-of-type(2) p
@@ -207,6 +213,10 @@ h1
     color: var(--link-text-color);
     font-size: 24px;
     text-decoration: underline;
+    font-weight: 100;
+    font-family: "cormorant-garamond-lt";
+    text-underline-offset: 10px;
+    text-decoration-thickness: 1px;
 }
 
 .img_ikea
