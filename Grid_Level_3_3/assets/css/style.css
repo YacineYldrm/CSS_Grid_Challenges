@@ -140,7 +140,7 @@ h1
 
 /* ######################## ADVERTISEMENT SECTION ####################### */
 
-.advertisement_wrapper
+.wrbng_wrapper
 {
     margin-left: 16px;
     display: flex;
@@ -157,7 +157,7 @@ h1
     width: 468px;
 }
 
-.advertisement_section
+.wrbng_section
 {
     display: flex;
     flex-direction: column;
@@ -165,7 +165,7 @@ h1
     width: 218px;
 }
 
-.advertisement_section > div
+.wrbng_section > div
 {
     border: 5px #333333 solid;
     /* padding-top: 24px;
@@ -175,34 +175,34 @@ h1
     text-align: center;
 }
 
-.advertisement_section div:nth-of-type(1)
+.wrbng_section div:nth-of-type(1)
 {
     font-size: 48px;
 }
 
-.advertisement_section div:nth-of-type(1)  p
+.wrbng_section div:nth-of-type(1)  p
 {
     margin: 24px;
 }
 
-.advertisement_section h3
+.wrbng_section h3
 {
     font-size: var(--sub-headline-font-size);
 }
 
-.advertisement_section > div:nth-of-type(2) 
+.wrbng_section > div:nth-of-type(2) 
 {
     padding: 20px 8px;
 }
 
-.advertisement_section > div:nth-of-type(2) p
+.wrbng_section > div:nth-of-type(2) p
 {
     font-size: var(--text-font-size);
     margin-inline: auto;
     margin-bottom: 4px;
 }
 
-.advertisement_section a
+.wrbng_section a
 {
     color: var(--link-text-color);
     font-size: 24px;
