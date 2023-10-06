@@ -6,14 +6,13 @@
 }
 
 
-
 .gallery_wrapper
 {
     display: grid;
     min-height: 100vh;
     width: max(1440px, 100vw);
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(3, 1fr);
     gap: 4px;
     justify-content: center;
 }
